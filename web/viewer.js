@@ -43,7 +43,7 @@ function getViewerConfiguration() {
     toolbar: {
       container: document.getElementById("toolbarContainer"),
       numPages: document.getElementById("numPages"),
-      pageNumber: document.getElementById("pageNumber"),
+      pageNumber: document.getElementById("pageNumber") + 2,
       scaleSelect: document.getElementById("scaleSelect"),
       customScaleOption: document.getElementById("customScaleOption"),
       previous: document.getElementById("previous"),
